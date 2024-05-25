@@ -1,0 +1,14 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "Renderings",
+    "items": {
+        "includes": [
+            {
+                "name": "Renderings",
+                "path": "/sitecore/layout/Renderings/Project/sugcon-2024",
+                "scope": "ItemAndDescendants",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            }
+        ]
+    }
+}

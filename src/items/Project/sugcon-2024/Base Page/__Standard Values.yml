@@ -1,0 +1,40 @@
+﻿---
+ID: "359f088c-ff9e-4459-8fbd-dc8a41e832f9"
+Parent: "d640bffc-1a9f-404a-8a89-0fb448f59d63"
+Template: "d640bffc-1a9f-404a-8a89-0fb448f59d63"
+Path: "/sitecore/templates/Project/sugcon-2024/Base Page/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {299E3971-BBA1-417C-BBC3-77E2C78C19E7}
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240525T091753Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "551bae20-9a46-4584-b60f-73db2b45a102"
+      Hint: Title
+      Value: $name
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cbb026d8-b70e-4d65-b3b1-759bc172d15d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240525T092909Z

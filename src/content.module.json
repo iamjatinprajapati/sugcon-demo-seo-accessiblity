@@ -1,0 +1,14 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "Content",
+    "items": {
+        "includes": [
+            {
+                "name": "Content",
+                "path": "/sitecore/content/sugcon-2024",
+                "scope": "ItemAndDescendants",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            }
+        ]
+    }
+}

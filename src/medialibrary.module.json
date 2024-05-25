@@ -1,0 +1,14 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "MediaLibrary",
+    "items": {
+        "includes": [
+            {
+                "name": "MediaLibrary",
+                "path": "/sitecore/media library/Project/sugcon-2024",
+                "scope": "ItemAndDescendants",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            }
+        ]
+    }
+}

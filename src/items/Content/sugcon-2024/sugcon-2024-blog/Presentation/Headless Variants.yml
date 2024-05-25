@@ -1,0 +1,36 @@
+﻿---
+ID: "4f3c6062-730d-4963-b060-1bdb794ba4a4"
+Parent: "fdbc3e3a-0262-4c00-b9f8-6509b046703b"
+Template: "da26c636-96e1-45e4-88d6-3fcec70d5699"
+Path: "/sitecore/content/sugcon-2024/sugcon-2024-blog/Presentation/Headless Variants"
+BranchID: "ab383616-86fa-41a3-bb12-2c478166886f"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{C731A7FC-9233-4913-A35B-B6EE5AA35DE5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240525T092403Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "35c9c0d3-4c20-47a4-b1fe-683e05c1609a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240525T092403Z
