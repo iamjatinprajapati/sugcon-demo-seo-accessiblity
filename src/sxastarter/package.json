@@ -1,10 +1,10 @@
 {
-  "name": "sxastarter",
+  "name": "sugcon-2024-blog",
   "description": "Application utilizing Sitecore JavaScript Services and Next.js",
   "version": "22.0.0",
   "private": true,
   "config": {
-    "appName": "sxastarter",
+    "appName": "sugcon-2024-blog",
     "rootPlaceholders": [
       "jss-main"
     ],
@@ -31,20 +31,29 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
+    "@headlessui/react": "^2.0.4",
+    "@heroicons/react": "^2.1.3",
     "@sitecore-cloudsdk/events": "^0.3.0",
     "@sitecore-feaas/clientside": "^0.5.17",
     "@sitecore-jss/sitecore-jss-nextjs": "~22.0.0",
     "@sitecore/components": "^1.1.10",
+    "animate.css": "^4.1.1",
+    "autoprefixer": "^10.4.19",
     "bootstrap": "^5.1.3",
     "font-awesome": "^4.7.0",
     "graphql": "~15.8.0",
     "graphql-tag": "^2.12.6",
     "next": "^14.1.0",
     "next-localization": "^0.12.0",
+    "postcss": "^8.4.38",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-slick": "^0.30.2",
     "sass": "^1.52.3",
-    "sass-alias": "^1.0.5"
+    "sass-alias": "^1.0.5",
+    "slick-carousel": "^1.8.1",
+    "slick-slider": "^1.8.2",
+    "tailwindcss": "^3.4.3"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^5.0.0",
