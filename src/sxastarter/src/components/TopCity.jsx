@@ -1,66 +1,9 @@
 import { NextImage, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
 import React from 'react';
-const TopCityFields = {
-  title: { value: 'Top Cities' },
-  cities: [
-    {
-      fields: {
-        img: {
-          value: {
-            src: 'https://city-blond.vercel.app/mumbai.jpg',
-            alt: 'mumbai',
-            height: '592',
-            width: '592',
-          },
-        },
-        link: {
-          value: {
-            text: 'Mumbai',
-            href: '/mumbai',
-          },
-        },
-      },
-    },
-    {
-      fields: {
-        img: {
-          value: {
-            src: 'https://city-blond.vercel.app/delhi.jpg',
-            alt: 'delhi',
-            height: '592',
-            width: '273',
-          },
-        },
-        link: {
-          value: {
-            text: 'Delhi',
-            href: '/delhi',
-          },
-        },
-      },
-    },
-    {
-      fields: {
-        img: {
-          value: {
-            src: 'https://city-blond.vercel.app/banglore.jpeg',
-            alt: 'bengaluru',
-            height: '592',
-            width: '273',
-          },
-        },
-        link: {
-          value: {
-            text: 'Bengaluru',
-            href: '/bengaluru',
-          },
-        },
-      },
-    },
-  ],
-};
-const TopCity = ({ fields = TopCityFields }) => {
+
+const TopCity = ({ fields }) => {
+  if (fields === null || fields === undefined) return <></>;
   return (
     <section aria-labelledby="category-heading" className="bg-gray-100">
       <div className="mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8">

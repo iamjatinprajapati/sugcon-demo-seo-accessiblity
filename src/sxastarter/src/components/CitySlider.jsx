@@ -5,104 +5,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import { Link as NextLink } from '@sitecore-jss/sitecore-jss-nextjs';
 
-const sliderFields = {
-  title: {
-    value: 'Explore City',
-  },
-  products: [
-    {
-      fields: {
-        link: {
-          value: {
-            href: '/kolkata',
-            text: 'Kolkata',
-          },
-        },
-        image: {
-          value: {
-            src: 'https://city-blond.vercel.app/kolkata.jpeg',
-            alt: 'kolkata',
-            height: '592',
-            width: '592',
-          },
-        },
-      },
-    },
-    {
-      fields: {
-        link: {
-          value: {
-            href: '/goa',
-            text: 'Goa',
-          },
-        },
-        image: {
-          value: {
-            src: 'https://city-blond.vercel.app/goa.jpg',
-            alt: 'goa',
-            height: '592',
-            width: '592',
-          },
-        },
-      },
-    },
-    {
-      fields: {
-        link: {
-          value: {
-            href: '/kerala',
-            text: 'Kerala',
-          },
-        },
-        image: {
-          value: {
-            src: 'https://city-blond.vercel.app/kerala.jpg',
-            alt: 'kerala',
-            height: '592',
-            width: '592',
-          },
-        },
-      },
-    },
-    {
-      fields: {
-        link: {
-          value: {
-            href: '/kashmir',
-            text: 'Kashmir',
-          },
-        },
-        image: {
-          value: {
-            src: 'https://city-blond.vercel.app/kashmir.jpg',
-            alt: 'goa',
-            height: '592',
-            width: '592',
-          },
-        },
-      },
-    },
-    {
-      fields: {
-        link: {
-          value: {
-            href: '/pune',
-            text: 'Pune',
-          },
-        },
-        image: {
-          value: {
-            src: 'https://city-blond.vercel.app/pune.jpg',
-            alt: 'goa',
-            height: '592',
-            width: '592',
-          },
-        },
-      },
-    },
-  ],
-};
-const CitySlider = ({ fields = sliderFields }) => {
+const CitySlider = ({ fields }) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -139,6 +42,7 @@ const CitySlider = ({ fields = sliderFields }) => {
       },
     ],
   };
+  if (fields === null || fields === undefined) return <></>;
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8 ">
