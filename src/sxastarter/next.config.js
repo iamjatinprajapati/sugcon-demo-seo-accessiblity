@@ -45,7 +45,12 @@ const nextConfig = {
         hostname: 'feaas*.blob.core.windows.net',
         port: '',
       },
-    ]
+      {
+        protocol: 'https',
+        hostname: 'city-blond.vercel.app',
+        port: '',
+      },
+    ],
   },
 
   async rewrites() {
