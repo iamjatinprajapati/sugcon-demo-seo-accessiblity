@@ -8,24 +8,10 @@ import Banner from './Banner';
 import TopCity from './TopCity';
 import CitySlider from './CitySlider';
 import Footer from './Footer';
-const HeaderFields = {
-  logo: {
-    value: {
-      src: 'https://city-blond.vercel.app/logo.png',
-      alt: 'headerLogo',
-      height: '100',
-      width: '100',
-    },
-  },
-  navigationLinks: [
-    { link: { value: { text: 'Bengaluru', href: '/bengaluru' } } },
-    { link: { value: { text: 'Mumbai', href: '/mumbai' } } },
-    { link: { value: { text: 'Delhi', href: '/Delhi' } } },
-  ],
-};
 
-export default function Header({ fields = HeaderFields }) {
+export default function Header({ fields }) {
   const [open, setOpen] = useState(false);
+  if (fields === null || fields === undefined) return <></>;
 
   return (
     <>
