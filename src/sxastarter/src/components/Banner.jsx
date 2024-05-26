@@ -28,7 +28,7 @@ export default function Banner({ fields }) {
                     {fields?.imageCol1?.map((images) => (
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <NextImage
-                          field={images?.image}
+                          field={images?.fields?.image}
                           className=" h-full w-full object-cover object-center"
                         />
                       </div>
@@ -38,7 +38,7 @@ export default function Banner({ fields }) {
                     {fields?.imageCol2?.map((images) => (
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <NextImage
-                          field={images?.image}
+                          field={images?.fields?.image}
                           className=" h-full w-full object-cover object-center"
                         />
                       </div>
@@ -48,7 +48,7 @@ export default function Banner({ fields }) {
                     {fields?.imageCol3?.map((images) => (
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <NextImage
-                          field={images?.image}
+                          field={images?.fields?.image}
                           className=" h-full w-full object-cover object-center"
                         />
                       </div>
