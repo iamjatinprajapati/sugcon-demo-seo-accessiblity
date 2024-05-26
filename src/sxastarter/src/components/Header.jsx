@@ -8,6 +8,7 @@ import Banner from './Banner';
 import TopCity from './TopCity';
 import CitySlider from './CitySlider';
 import Footer from './Footer';
+import Hero from './Hero';
 
 export default function Header({ fields }) {
   const [open, setOpen] = useState(false);
@@ -105,10 +106,7 @@ export default function Header({ fields }) {
           </div>
         </div>
       </nav>
-      <Banner />
-      <TopCity />
-      <CitySlider />
-      <Footer />
+      <Hero />
     </>
   );
 }
