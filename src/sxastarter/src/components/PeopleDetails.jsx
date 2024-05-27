@@ -2,7 +2,7 @@ import { NextImage, RichText, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 import React from 'react';
 
 
-const PeopleDetails = ({ fields= data }) => {
+const PeopleDetails = ({ fields }) => {
   return (
     <div className="mt-32 overflow-hidden sm:mt-40">
       <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
