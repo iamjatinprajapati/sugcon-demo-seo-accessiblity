@@ -26,7 +26,7 @@ export default function Banner({ fields }) {
                 <div className="flex items-center space-x-6 lg:space-x-8">
                   <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-7">
                     {fields?.imageCol1?.map((images) => (
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                      <div key={images?.id} className="h-64 w-44 overflow-hidden rounded-lg">
                         <NextImage
                           field={images?.fields?.image}
                           className=" h-full w-full object-cover object-center"
@@ -36,7 +36,7 @@ export default function Banner({ fields }) {
                   </div>
                   <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-7">
                     {fields?.imageCol2?.map((images) => (
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                      <div key={images?.id} className="h-64 w-44 overflow-hidden rounded-lg">
                         <NextImage
                           field={images?.fields?.image}
                           className=" h-full w-full object-cover object-center"
@@ -46,7 +46,7 @@ export default function Banner({ fields }) {
                   </div>
                   <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-7">
                     {fields?.imageCol3?.map((images) => (
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                      <div key={images?.id} className="h-64 w-44 overflow-hidden rounded-lg">
                         <NextImage
                           field={images?.fields?.image}
                           className=" h-full w-full object-cover object-center"
@@ -63,4 +63,3 @@ export default function Banner({ fields }) {
     </div>
   );
 }
-

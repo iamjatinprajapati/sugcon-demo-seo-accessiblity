@@ -94,4 +94,3 @@ const TopCity = ({ fields }) => {
 };
 
 export default TopCity;
-

@@ -94,6 +94,7 @@ export default function Header({ fields }) {
               <div className="flex h-full space-x-8">
                 {fields?.navigationLinks?.map((page) => (
                   <NextLink
+                    key={page?.id}
                     field={page?.fields?.link}
                     className="flex items-center text-medium font-medium text-black hover:text-gray-800 hover:underline"
                   >
@@ -112,4 +113,3 @@ export default function Header({ fields }) {
     </>
   );
 }
-

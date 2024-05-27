@@ -50,6 +50,11 @@ const nextConfig = {
         hostname: 'city-blond.vercel.app',
         port: '',
       },
+      {
+        protocol: 'http',
+        hostname: 'cm',
+        port: '',
+      },
     ],
   },
 

@@ -3,7 +3,7 @@ import { NextImage, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
 import React from 'react';
 import Slider from 'react-slick';
-import { Link as NextLink } from '@sitecore-jss/sitecore-jss-nextjs';
+// import { Link as NextLink } from '@sitecore-jss/sitecore-jss-nextjs';
 
 const CitySlider = ({ fields }) => {
   const settings = {
@@ -83,4 +83,3 @@ const CitySlider = ({ fields }) => {
 };
 
 export default CitySlider;
-

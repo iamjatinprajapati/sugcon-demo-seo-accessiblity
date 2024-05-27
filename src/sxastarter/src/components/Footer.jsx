@@ -1,5 +1,5 @@
 import { RichText } from '@sitecore-jss/sitecore-jss-react';
-import Link from 'next/link';
+// import Link from 'next/link';
 
 export default function Footer({ fields }) {
   if (fields === null || fields === undefined) return <></>;
@@ -18,4 +18,3 @@ export default function Footer({ fields }) {
     </footer>
   );
 }
-
