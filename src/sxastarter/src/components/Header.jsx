@@ -12,7 +12,6 @@ import Footer from './Footer';
 export default function Header({ fields }) {
   const [open, setOpen] = useState(false);
   if (fields === null || fields === undefined) return <></>;
-
   return (
     <>
       {/* Mobile menu */}
@@ -52,11 +51,12 @@ export default function Header({ fields }) {
                 </div>
 
                 <div className="space-y-6 border-t border-gray-200 px-4 py-6">
-                  {fields?.navigationLinks?.map((page) => (
-                    <div key={page.name} className="flow-root">
-                      <NextLink field={page.link} className="-m-2 block p-2 font-medium text-black">
-                        {page.name}
-                      </NextLink>
+                  {fields?.navigationLinks?.map((page, index) => (
+                    <div key={index} className="flow-root">
+                      <NextLink
+                        field={page?.fields?.link}
+                        className="-m-2 block p-2 font-medium text-black"
+                      ></NextLink>
                     </div>
                   ))}
                 </div>
@@ -85,7 +85,7 @@ export default function Header({ fields }) {
             {/* Logo */}
             <div className="ml-4 flex lg:ml-0">
               <Link href="/">
-                <NextImage field={fields?.logo} />
+                <NextImage className="w-[80px] h-[80px]" field={fields?.logo} />
               </Link>
             </div>
 
@@ -94,7 +94,7 @@ export default function Header({ fields }) {
               <div className="flex h-full space-x-8">
                 {fields?.navigationLinks?.map((page) => (
                   <NextLink
-                    field={page?.link}
+                    field={page?.fields?.link}
                     className="flex items-center text-medium font-medium text-black hover:text-gray-800 hover:underline"
                   >
                     {page.name}
