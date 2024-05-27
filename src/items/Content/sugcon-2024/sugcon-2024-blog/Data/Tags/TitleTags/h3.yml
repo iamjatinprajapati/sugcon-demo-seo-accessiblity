@@ -1,0 +1,34 @@
+﻿---
+ID: "7dbb91f8-70b3-4402-af38-9e6d216399cc"
+Parent: "fe5a733d-90ac-4f36-a728-8d0504e5fb45"
+Template: "6b40e84c-8785-49fc-8a10-6bca862ff7ea"
+Path: "/sitecore/content/sugcon-2024/sugcon-2024-blog/Data/Tags/TitleTags/h3"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240526T041847Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "58c27603-96e3-4369-b508-fc4c409d6b88"
+    - ID: "b8a8b6c9-4757-496b-9aae-5f46ff381563"
+      Hint: Title
+      Value: h3
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240526T042019Z

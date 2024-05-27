@@ -1,0 +1,48 @@
+﻿---
+ID: "6b0119dd-08be-41a7-bc78-dc2dbbd20938"
+Parent: "6a350dd3-c74b-43e0-aadd-62fab75e1bae"
+Template: "f2986db5-cec7-4886-9228-6c3c411a7287"
+Path: "/sitecore/content/sugcon-2024/sugcon-2024-blog/Data/Banners/Home banner"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240526T041739Z
+    - ID: "27570f37-d71b-4731-b2eb-1b564752b45f"
+      Hint: titleTab
+      Value: h1
+    - ID: "276fd1f8-34b8-4831-b1ad-f512f716b94d"
+      Hint: title
+      Value: Incredible India
+    - ID: "33e1f4cc-ab56-4724-81ec-8411cc15e934"
+      Hint: imageCol1
+      Value: |
+        {0DF09E59-200A-4432-96DE-F131E91D9DAE}
+        {7BA09B0F-4D38-4CAF-9AE0-B5BB4204B24E}
+    - ID: "7ed6d785-cb3f-4233-8354-6f60f2fbbd09"
+      Hint: imageCol2
+      Value: |
+        {E1E7907D-9F91-4B43-9337-AA0FB62E1A35}
+        {3C309411-4A56-4E73-865D-9CBE58B8F363}
+        {5B408E50-4948-4883-89BB-3F655ADA84EC}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a83517fa-ead9-4600-bd4b-3ed6d4efd993"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240526T042813Z
+    - ID: "f0eaf5cd-ce10-42a3-bea2-9bb823619e73"
+      Hint: description
+      Value: Experience the Magic of India’s Renowned Cities
+    - ID: "fa6b3357-fafd-49ec-9fd5-b894bd3a9bdf"
+      Hint: imageCol3
+      Value: |
+        {DBD9D05C-EA08-4C16-AB9B-9DC79C0F5F75}
+        {B2FE7693-C7CA-4315-AAA3-EF1712E802B4}
