@@ -1,0 +1,39 @@
+﻿---
+ID: "f94d19e2-af35-4b16-ad8d-b0e37313c255"
+Parent: "71d0b6c3-7dd1-43c6-ae22-058c2c2ae57b"
+Template: "42b44e4d-faf9-4103-8825-641f588a2886"
+Path: "/sitecore/content/sugcon-2024/sugcon-2024-blog/Data/Slider/Kashmir"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240528T183105Z
+    - ID: "36c7f9e9-8973-4e4f-b079-8d3f7fd2f774"
+      Hint: image
+      Value: |
+        <image mediaid="{5290C1CC-8A95-4225-8DEF-DBEAC78A1409}" />
+    - ID: "51040965-a8ac-4faa-998e-c7d8f014e6d2"
+      Hint: link
+      Value: |
+        <link text="Kashmir" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{B3721B57-FFF0-4144-BF23-8B64A119F945}" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8ea74f39-8a33-4202-b62f-6d70fbead24c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240528T183215Z

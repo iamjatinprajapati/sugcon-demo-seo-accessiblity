@@ -1,0 +1,32 @@
+﻿---
+ID: "9d193ac9-1f8e-411e-9664-97ae51355eed"
+Parent: "2a9a5647-632c-49d1-adab-72a6e5e6e87f"
+Template: "b65ddb59-8e4c-422c-86c5-181a9f1aa0cc"
+Path: "/sitecore/content/sugcon-2024/sugcon-2024-blog/Data/Top Cities"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240528T180922Z
+    - ID: "552979d3-d28c-47af-a998-7b9de1c8e166"
+      Hint: cities
+      Value: |
+        {85778DAD-8DA1-47CA-8F9D-6DF6F5A288B4}
+        {DCFCA880-8010-419D-89DC-8E7AD3DB432D}
+        {E0191189-365F-4C0F-A174-8A4F6E72B21E}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ab100387-9a82-4ada-9908-5f482f5f48c6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240528T181938Z
+    - ID: "fc5d1f2e-59d2-4779-970d-bc9e9736354a"
+      Hint: title
+      Value: Top Cities

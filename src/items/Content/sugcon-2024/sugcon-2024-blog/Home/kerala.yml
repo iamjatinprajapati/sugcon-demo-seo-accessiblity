@@ -1,0 +1,34 @@
+﻿---
+ID: "69c151c1-2bb9-410d-9e3f-33fdadeaa585"
+Parent: "f61b7279-9ffa-4b23-abbd-05c86b221be1"
+Template: "299e3971-bba1-417c-bbc3-77e2c78c19e7"
+Path: "/sitecore/content/sugcon-2024/sugcon-2024-blog/Home/kerala"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{44E8F064-04FB-499E-A4E6-8DEDB7791AF6}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240528T182954Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: kerala
+    - ID: "551bae20-9a46-4584-b60f-73db2b45a102"
+      Hint: Title
+      Value: Kerala
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8ceb62ae-655e-413b-9b06-b01d450b1b12"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240528T182957Z

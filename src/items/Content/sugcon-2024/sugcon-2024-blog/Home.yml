@@ -29,8 +29,23 @@ Languages:
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
               uid="{E63CF132-817E-498C-A567-8F5FA6228274}"
+              p:before="*"
               s:ds="{6B0119DD-08BE-41A7-BC78-DC2DBBD20938}"
               s:id="{91B9B60F-6A93-4B7A-8EBB-3EF69FA3AACB}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{D6968FAF-9447-4AB7-9DCE-D3EFD462589E}"
+              p:after="r[@uid='{E63CF132-817E-498C-A567-8F5FA6228274}']"
+              s:ds="{9D193AC9-1F8E-411E-9664-97AE51355EED}"
+              s:id="{DBFD5F58-4CA3-4183-AA88-07A6ED437050}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{5F32DAC2-7A7D-44D5-A934-1E14C1B0DE43}"
+              p:after="*[1=2]"
+              s:ds="{71D0B6C3-7DD1-43C6-AE22-058C2C2AE57B}"
+              s:id="{BA65A9D5-B5DE-429B-96B0-5FBEFEC85DDF}"
               s:par="CSSStyles"
               s:ph="headless-main" />
           </d>
@@ -45,17 +60,20 @@ Languages:
       Hint: __Owner
       Value: |
         sitecore\jprajapati@horizontal.com
+    - ID: "551bae20-9a46-4584-b60f-73db2b45a102"
+      Hint: Title
+      Value: Home
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\jprajapati@horizontal.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "230d4a21-8fd7-445c-88f3-01ec7a22258d"
+      Value: "5753e1f6-c698-4929-b776-c7c593f0de3e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\jprajapati@horizontal.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240526T044148Z
+      Value: 20240528T182722Z

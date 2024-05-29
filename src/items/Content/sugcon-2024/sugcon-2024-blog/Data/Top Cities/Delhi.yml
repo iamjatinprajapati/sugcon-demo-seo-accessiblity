@@ -1,0 +1,39 @@
+﻿---
+ID: "dcfca880-8010-419d-89dc-8e7ad3db432d"
+Parent: "9d193ac9-1f8e-411e-9664-97ae51355eed"
+Template: "c18afe90-eeba-400c-9c0f-21675fbf6a4d"
+Path: "/sitecore/content/sugcon-2024/sugcon-2024-blog/Data/Top Cities/Delhi"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240528T181627Z
+    - ID: "4f10bbf8-42a4-46fd-ba2a-fceed68560ea"
+      Hint: link
+      Value: |
+        <link text="Delhi" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{E59A4D1A-93FA-45B6-A851-1BC285C9CE4C}" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "11867bd5-036e-4740-8965-08dde6e7913b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "d7a61569-1769-43fa-9496-0221a428c523"
+      Hint: img
+      Value: |
+        <image mediaid="{1AF355F3-F5C7-43AE-AAA4-E7B4F02CACD3}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240528T181748Z

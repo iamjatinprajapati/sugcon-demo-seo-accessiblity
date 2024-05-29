@@ -1,0 +1,39 @@
+﻿---
+ID: "e0191189-365f-4c0f-a174-8a4f6e72b21e"
+Parent: "9d193ac9-1f8e-411e-9664-97ae51355eed"
+Template: "c18afe90-eeba-400c-9c0f-21675fbf6a4d"
+Path: "/sitecore/content/sugcon-2024/sugcon-2024-blog/Data/Top Cities/bengaluru"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240528T181829Z
+    - ID: "4f10bbf8-42a4-46fd-ba2a-fceed68560ea"
+      Hint: link
+      Value: |
+        <link text="Bengaluru" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{0D982844-D8FC-4E6A-B93F-50162D8A5922}" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9335a65b-20ee-4e85-8652-26966d8f9853"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "d7a61569-1769-43fa-9496-0221a428c523"
+      Hint: img
+      Value: |
+        <image mediaid="{EFA9A625-B268-4759-B5F4-F7B5706A2A82}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240528T181933Z
