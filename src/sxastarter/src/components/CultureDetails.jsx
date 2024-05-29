@@ -66,4 +66,3 @@ const CultureDetails = ({ fields }) => {
 };
 
 export default CultureDetails;
-

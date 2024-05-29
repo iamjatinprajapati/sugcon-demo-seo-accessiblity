@@ -31,4 +31,3 @@ const Hero = ({ fields }) => {
 };
 
 export default Hero;
-

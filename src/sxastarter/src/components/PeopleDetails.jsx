@@ -1,7 +1,6 @@
 import { NextImage, RichText, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 import React from 'react';
 
-
 const PeopleDetails = ({ fields }) => {
   return (
     <div className="mt-32 overflow-hidden sm:mt-40">
@@ -54,4 +53,3 @@ const PeopleDetails = ({ fields }) => {
 };
 
 export default PeopleDetails;
-
