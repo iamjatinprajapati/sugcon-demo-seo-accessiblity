@@ -5,7 +5,7 @@ export default function Footer({ fields }) {
   if (fields === null || fields === undefined) return <></>;
 
   return (
-    <footer className="bg-gray-100">
+    <footer data-component-name="Footer" className="bg-gray-100">
       <div className="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-center lg:px-8">
         <div className="mt-8 md:order-1 md:mt-0">
           <RichText

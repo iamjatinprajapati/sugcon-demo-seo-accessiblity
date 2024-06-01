@@ -68,6 +68,7 @@ export default function Header({ fields }) {
 
       <nav
         aria-label="Top"
+        data-component-name="Header"
         className="sticky animate__fadeInDown animate__animated top-0 left-0 z-20 bg-white bg-opacity-90 backdrop-blur-xl backdrop-filter"
       >
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
