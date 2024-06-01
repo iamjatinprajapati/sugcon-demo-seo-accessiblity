@@ -5,7 +5,11 @@ import React from 'react';
 const TopCity = ({ fields }) => {
   if (fields === null || fields === undefined) return <></>;
   return (
-    <section aria-labelledby="category-heading" className="bg-gray-100">
+    <section
+      data-component-name="TopCity"
+      aria-labelledby="category-heading"
+      className="bg-gray-100"
+    >
       <div className="mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8">
         <div className="sm:flex sm:items-baseline sm:justify-between">
           <Text
@@ -94,3 +98,4 @@ const TopCity = ({ fields }) => {
 };
 
 export default TopCity;
+
