@@ -3,7 +3,10 @@ import { NextImage, RichText, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 export default function Banner({ fields }) {
   if (fields === null || fields === undefined) return <></>;
   return (
-    <div data-component-name="Banner" className="relative pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-60 lg:pt-60">
+    <div
+      data-component-name="Banner"
+      className="relative pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-60 lg:pt-60"
+    >
       <div className=" mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
         <div className="sm:max-w-lg">
           <Text

@@ -38,4 +38,3 @@ const Timeline = ({ fields }) => {
 };
 
 export default Timeline;
-

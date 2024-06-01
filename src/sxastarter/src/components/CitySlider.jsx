@@ -45,7 +45,10 @@ const CitySlider = ({ fields }) => {
   if (fields === null || fields === undefined) return <></>;
 
   return (
-    <div data-component-name="CitySlider" className="mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8 ">
+    <div
+      data-component-name="CitySlider"
+      className="mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8 "
+    >
       <div className="-mx-4">
         <Text
           tag="p"
