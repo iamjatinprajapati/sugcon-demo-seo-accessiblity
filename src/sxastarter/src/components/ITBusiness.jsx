@@ -1,5 +1,4 @@
 import { NextImage, RichText, Text } from '@sitecore-jss/sitecore-jss-nextjs';
-import Link from 'next/link';
 import React from 'react';
 
 const ITBusiness = ({ fields }) => {
