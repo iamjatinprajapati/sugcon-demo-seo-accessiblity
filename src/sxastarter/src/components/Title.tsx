@@ -1,6 +1,5 @@
 import React from 'react';
-import {
-  Link,
+import {  
   Text,
   useSitecoreContext,
   LinkField,
