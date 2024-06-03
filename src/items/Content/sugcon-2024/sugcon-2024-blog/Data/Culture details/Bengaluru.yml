@@ -1,0 +1,55 @@
+﻿---
+ID: "3a6eadb6-40f7-478c-b935-6ca098648b15"
+Parent: "0184cefe-d1a8-4f2e-b1af-4410628dbf53"
+Template: "f221b553-1296-40bc-a997-f013128423f5"
+Path: "/sitecore/content/sugcon-2024/sugcon-2024-blog/Data/Culture details/Bengaluru"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "14508be1-feb4-4489-9f12-91bf73862367"
+      Hint: artsDescription
+      Value: <p>Bengaluru hosts numerous cultural festivals such as the Bengaluru International Film Festival, and traditional celebrations like Karaga and Dasara. The city is also known for its vibrant theater scene, with venues like Rangashankara hosting various performances throughout the year.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240530T082018Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "6e63e38c-122e-4046-a651-414de464cc89"
+      Hint: cuisineTitle
+      Value: Cuisine
+    - ID: "767fe597-5feb-41b6-a04d-f48bb6c7ea1f"
+      Hint: artsTitle
+      Value: Arts and Culture
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "55d3d845-ae34-450a-965b-b20ac8bc9373"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "bbbfcc74-b138-490c-a71d-76f166583623"
+      Hint: cuisineDescription
+      Value: <p>The food culture in Bengaluru is diverse, offering everything from traditional South Indian dishes like dosas and idlis to global cuisines. The city is famous for its street food, cafes, and fine dining restaurants</p>
+    - ID: "c2a5769d-b0e5-4022-83c7-6750d2a360b8"
+      Hint: cultureDescription
+      Value: <p>Bengaluru boasts a rich cultural scene that includes traditional art forms, modern music, theater, and cuisine. The city&apos;s culture is influenced by its history and the various communities that call it home.</p>
+    - ID: "d2933efa-66a4-4730-9acf-33e756081f70"
+      Hint: musicAndNightlifeTitle
+      Value: Music and Nightlife
+    - ID: "d86995bd-96e1-4e04-864b-b2677f388d40"
+      Hint: cultureTitle
+      Value: Culture of Bengaluru
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240530T082110Z
+    - ID: "f03e65c9-b131-47e3-97c4-8dd1a11dcdfc"
+      Hint: musicAndNightlifeDescription
+      Value: <p>Bengaluru is known as the rock music capital of India. It has a thriving live music scene, with many pubs and venues hosting local and international bands. The city&apos;s nightlife is equally vibrant, with numerous bars, clubs, and breweries</p>

@@ -1,0 +1,37 @@
+﻿---
+ID: "c55ec6ff-0f9d-4b66-8334-eccb23050511"
+Parent: "178b0806-49da-49f4-b8ed-31ae45225562"
+Template: "34fd3b66-b159-4a90-ae96-a623a13004ea"
+Path: "/sitecore/content/sugcon-2024/sugcon-2024-blog/Data/ITBusiness/Bengaluru/job3"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240530T082555Z
+    - ID: "3a0d31ca-6e98-411a-889d-99d3d61f463d"
+      Hint: name
+      Value: Education and Talent
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ec75d12e-8692-4dbd-8a14-e6186c78d942"
+    - ID: "921217ec-29b0-4659-85a6-e359210fdc3d"
+      Hint: description
+      Value: Bengaluru&apos;s educational institutions, including the Indian Institute of Science (IISc) and numerous engineering colleges, supply a steady stream of skilled professionals to the IT sector. This has been instrumental in the city&apos;s growth as a tech powerhouse
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240530T082607Z

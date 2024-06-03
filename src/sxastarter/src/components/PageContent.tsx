@@ -23,7 +23,7 @@ type ComponentContentProps = {
 const ComponentContent = (props: ComponentContentProps) => {
   const id = props.id;
   return (
-    <div className={`component content ${props.styles}`} id={id ? id : undefined}>
+    <div className={`mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-5`} id={id ? id : undefined}>
       <div className="component-content">
         <div className="field-content">{props.children}</div>
       </div>

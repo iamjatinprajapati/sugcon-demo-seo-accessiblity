@@ -5,7 +5,7 @@
         "includes": [
             {
                 "name": "MediaLibrary",
-                "path": "/sitecore/media library/Project/sugcon-2024",
+                "path": "/sitecore/media library/Project/sugcon-2024-media",
                 "scope": "ItemAndDescendants",
                 "allowedPushOperations": "CreateUpdateAndDelete"
             }

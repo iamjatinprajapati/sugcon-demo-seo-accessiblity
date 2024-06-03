@@ -7,9 +7,7 @@ BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
 - ID: "de8257d9-43aa-4eff-a2f4-2e9fbbd20e79"
   Hint: AdditionalChildren
-  Value: |
-    {E8D02020-8222-4EB5-9290-6B362C17C3EA}
-    {D8EAED06-7E0D-4CF1-8B64-BC4C491CCD91}
+  Value: "{02B3875C-F1D3-4FEB-923B-887159175982}"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{A7F39EA2-9018-4622-891D-CB65627E5AF2}"
@@ -31,11 +29,11 @@ Languages:
         sitecore\jprajapati@horizontal.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f9b92eb1-cb04-4710-a597-b4e92b6e3041"
+      Value: "b481e709-7efd-4b5f-bd64-cb33e0ee2bef"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\jprajapati@horizontal.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240525T092400Z
+      Value: 20240603T130508Z

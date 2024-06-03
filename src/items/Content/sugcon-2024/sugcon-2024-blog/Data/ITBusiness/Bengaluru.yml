@@ -1,0 +1,42 @@
+﻿---
+ID: "178b0806-49da-49f4-b8ed-31ae45225562"
+Parent: "cb9f73c2-eeda-4fef-8db5-821fbf9339ee"
+Template: "ff19b981-d71e-4b4a-ad51-580160a69023"
+Path: "/sitecore/content/sugcon-2024/sugcon-2024-blog/Data/ITBusiness/Bengaluru"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a267f6b-7077-487b-80b0-d45eb8ce42e6"
+      Hint: title
+      Value: IT Business
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240530T082431Z
+    - ID: "56c49b79-d47f-4255-a655-126e88f1cd2f"
+      Hint: jobOpenings
+      Value: |
+        {FDC8340B-3935-4120-AFA0-834460AC8BEF}
+        {7F634FB8-EEF3-4CDF-9B9C-62C2FA7CA5F4}
+        {C55EC6FF-0F9D-4B66-8334-ECCB23050511}
+    - ID: "6511ddf9-25af-485c-8789-f68039ca5e09"
+      Hint: Description
+      Value: |
+        <p> Bengaluru is famously dubbed the &apos;Silicon Valley of India&apos; due to its booming
+            IT industry. The city&apos;s growth as an IT hub began in the late 20th century and
+            continues to be a significant driver of its economy.</p>
+    - ID: "7e11f557-b334-4379-b992-cf87c8c5f435"
+      Hint: image
+      Value: |
+        <image mediaid="{D1CDE82A-3627-472B-A72C-D3A542DB7C2E}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d15d00c4-82f2-47b2-808e-c0259e48cb64"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240530T082613Z

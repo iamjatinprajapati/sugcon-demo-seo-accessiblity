@@ -1,0 +1,40 @@
+﻿---
+ID: "f2037cd8-2c9a-4aa9-8ed9-da3ed46f8ec9"
+Parent: "d5dfac63-e6b8-4f14-88d8-35e1745e08bc"
+Template: "63c309a7-c41a-4f57-aee7-0f4c51ea722c"
+Path: "/sitecore/content/sugcon-2024/sugcon-2024-blog/Data/Timelines/Bengaluru/founding-by-kempe-gowda"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240530T080541Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "6af6532e-a360-4056-99bb-31591a91ce3c"
+      Hint: description
+      Value: <p>Kempe Gowda I, a feudal lord under the Vijayanagara Empire, establishes Bengaluru by building a mud fort, marking the beginning of the city's development.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1c38f7a8-0cbd-4197-808a-d16658214a5b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "c6bfadba-3901-4a9a-bbfc-a764c1e73d5b"
+      Hint: date
+      Value: 1537
+    - ID: "d3e41ea4-fa50-4010-9ed1-52a8beb4d59f"
+      Hint: name
+      Value: Founding by Kempe Gowda
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240530T080603Z

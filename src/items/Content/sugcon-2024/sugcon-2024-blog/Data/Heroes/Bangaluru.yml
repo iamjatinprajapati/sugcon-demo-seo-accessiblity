@@ -1,0 +1,41 @@
+﻿---
+ID: "1a8c845f-ad6d-401d-b9da-26e3162056b0"
+Parent: "a1983137-e229-4179-ab84-76017e4ef87b"
+Template: "5d6342aa-02e1-44f4-bd6a-325ab0ec1212"
+Path: "/sitecore/content/sugcon-2024/sugcon-2024-blog/Data/Heroes/Bangaluru"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "088397f4-e315-4318-b70c-48a92214a6cc"
+      Hint: title
+      Value: "Exploring Bengaluru: A Vibrant City of People, Culture, and IT Business"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240530T075803Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "6ba94909-674d-4981-a3d3-5e29d3efb166"
+      Hint: image
+      Value: |
+        <image mediaid="{EFA9A625-B268-4759-B5F4-F7B5706A2A82}" alt="banglore home" height="" width="" hspace="" vspace="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "71563bd7-4087-42ad-9365-37d9904b02b4"
+    - ID: "b3d73386-9cc4-4ce1-aba7-04c748382ae3"
+      Hint: description
+      Value: Also known as Bangalore, is the capital of the Indian state of Karnataka. Often referred to as the &apos;Silicon Valley of India,&apos; Bengaluru is renowned for its role as the nation&apos;s leading IT exporter, housing numerous multinational corporations and tech startups. The city is located on the Deccan Plateau at an elevation of 920 meters (3,020 feet), giving it a pleasant climate throughout the year.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240530T075957Z

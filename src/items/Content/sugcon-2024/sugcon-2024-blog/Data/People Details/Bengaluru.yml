@@ -1,0 +1,69 @@
+﻿---
+ID: "efa8a201-56fc-4c5e-a240-74a5033601e7"
+Parent: "1bcc994a-8a6d-4631-9c68-8f37818910d0"
+Template: "1ebe392e-02a5-402f-9a5e-8ee01977fa6f"
+Path: "/sitecore/content/sugcon-2024/sugcon-2024-blog/Data/People Details/Bengaluru"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240530T081127Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "66297a41-02a5-464c-ab7c-4678177f74bc"
+      Hint: image2
+      Value: |
+        <image mediaid="{A5A2FB63-34C3-4088-8ACE-52E8BCE06FF2}" />
+    - ID: "6da81a1f-2582-4960-827d-3ce6816be429"
+      Hint: image4
+      Value: |
+        <image mediaid="{6D1F3603-EE7A-4211-B5CC-5BA02C270DE6}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6622cb72-bbc5-4b65-a4f8-37b8f761e9c2"
+    - ID: "8d1e3793-7bee-438e-9ca2-cd4e838ff918"
+      Hint: image3
+      Value: |
+        <image mediaid="{6D1F3603-EE7A-4211-B5CC-5BA02C270DE6}" />
+    - ID: "9b6f925e-11ac-4385-9334-e433f2277344"
+      Hint: title
+      Value: People of Bengaluru
+    - ID: "b0820555-1232-46f6-b70f-be7446188e51"
+      Hint: image1
+      Value: |
+        <image mediaid="{A61CCF7D-CD9A-4516-98B1-AE74F998F438}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jprajapati@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240530T081509Z
+    - ID: "f09e6468-fbb5-4749-b433-139ab39285b8"
+      Hint: description
+      Value: |
+        <p classname="mt-6 text-xl leading-8 text-gray-600">
+          Bengaluru is a melting pot of cultures, attracting people from all over India and the
+          world. The city&apos;s population is a mix of native Kannadigas and people from
+          various states, contributing to its cosmopolitan vibe. The residents, known as
+          Bangaloreans, are known for their hospitality and progressive outlook.
+        </p>
+        <p classname="mt-6 text-base leading-7 text-gray-600">
+          Demographics: Bengaluru is home to over 8 million people, making it one of the largest
+          cities in India. The city&apos;s workforce is diverse, with a significant proportion
+          engaged in the IT and services sector
+        </p>
+        <p classname="mt-6 text-base leading-7 text-gray-600">
+          Languages: While Kannada is the official language, English, Hindi, Tamil, Telugu, and
+          other Indian languages are widely spoken, reflecting the city&apos;s diverse
+          population
+        </p>
