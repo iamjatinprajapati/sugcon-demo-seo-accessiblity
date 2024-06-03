@@ -6,7 +6,6 @@ import Head from 'next/head';
 import { Placeholder, LayoutServiceData, Field, HTMLLink } from '@sitecore-jss/sitecore-jss-nextjs';
 import config from 'temp/config';
 import Scripts from 'src/Scripts';
-import HeadMeta from 'components/HeadMeta';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
@@ -20,6 +19,8 @@ interface LayoutProps {
 interface RouteFields {
   [key: string]: unknown;
   Title?: Field;
+  keywords?: Field;
+  metaDescription?: Field;
 }
 
 const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
@@ -37,9 +38,9 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         {headLinks.map((headLink) => (
           <link rel={headLink.rel} key={headLink.href} href={headLink.href} />
         ))}
+        <meta name="keywords" content={fields?.keywords?.value?.toString() ?? ''} />
+        <meta name="description" content={fields?.metaDescription?.value?.toString() ?? ''} />
       </Head>
-
-      <HeadMeta data={layoutData?.sitecore?.route?.fields} />
       {/* root placeholder for the app, which we add components to using route data */}
       <div className={mainClassPageEditing}>
         <header>
