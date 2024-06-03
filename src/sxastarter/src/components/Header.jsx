@@ -46,7 +46,7 @@ export default function Header({ fields }) {
                   >
                     <span className="absolute -inset-0.5" />
                     <span className="sr-only">Close menu</span>
-                    <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                    <XMarkIcon alt="Close icon" className="h-6 w-6" aria-hidden="true" />
                   </button>
                 </div>
 
