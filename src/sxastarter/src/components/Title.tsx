@@ -50,7 +50,11 @@ type ComponentContentProps = {
 const ComponentContent = (props: ComponentContentProps) => {
   const id = props.id;
   return (
-    <div data-component-name="Title" className={`mx-auto max-w-7xl px-4 sm:px-6 lg:px-8`} id={id ? id : undefined}>
+    <div
+      data-component-name="Title"
+      className={`mx-auto max-w-7xl px-4 sm:px-6 lg:px-8`}
+      id={id ? id : undefined}
+    >
       <div className="component-content">
         <h1 className="field-title font-bold text-2xl">{props.children}</h1>
       </div>
