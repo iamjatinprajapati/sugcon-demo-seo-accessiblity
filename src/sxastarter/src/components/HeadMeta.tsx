@@ -1,7 +1,12 @@
+import { Field } from '@sitecore-jss/sitecore-jss-nextjs';
 import Head from 'next/head';
 import React from 'react';
-
-const HeadMeta = ({ data }: any): JSX.Element => {
+type HeadMetaProps = {
+  Title: Field<string>;
+  keywords: Field<string>;
+  metaDescription: Field<string>;
+};
+const HeadMeta = (data: HeadMetaProps): JSX.Element => {
   return (
     <>
       <Head>
