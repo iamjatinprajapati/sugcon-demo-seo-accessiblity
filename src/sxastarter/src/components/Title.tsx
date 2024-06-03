@@ -91,9 +91,7 @@ export const Default = (props: TitleProps): JSX.Element => {
         {sitecoreContext.pageState === 'edit' ? (
           <Text field={text} />
         ) : (
-          <Link field={link}>
-            <Text field={text} />
-          </Link>
+          <Text field={text} />
         )}
       </>
     </ComponentContent>
