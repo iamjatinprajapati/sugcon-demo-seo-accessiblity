@@ -11,7 +11,7 @@ const Hero = ({ fields }) => {
       <div className="mx-auto max-w-7xl px-6 pb-32 pt-12 sm:pb-40 sm:pt-16 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
           <Text
-            tag="p"
+            tag="h1"
             field={fields?.title}
             className="animate__animated animate__slower animate__fadeInLeft max-w-2xl pt-12 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:col-span-2 xl:col-auto"
           />
