@@ -15,6 +15,7 @@ export default function Banner({ fields }) {
             className="animate__animated animate__slow animate__fadeInLeft text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
           />
           <RichText
+            tag="div"
             field={fields?.description}
             className="mt-4 text-xl animate__delay-1s text-gray-700 animate__animated animate__fadeIn"
           />
