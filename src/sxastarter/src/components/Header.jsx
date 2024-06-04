@@ -1,7 +1,6 @@
 import { Fragment, useState } from 'react';
 import { Dialog, DialogPanel, PopoverGroup, Transition, TransitionChild } from '@headlessui/react';
 import Link from 'next/link';
-import { NextImage } from '@sitecore-jss/sitecore-jss-nextjs';
 import { Link as NextLink } from '@sitecore-jss/sitecore-jss-nextjs';
 import Banner from './Banner';
 import TopCity from './TopCity';
@@ -85,7 +84,7 @@ export default function Header({ fields }) {
             {/* Logo */}
             <div className="ml-4 flex lg:ml-0">
               <Link href="/">
-                <NextImage className="w-[80px] h-[80px]" field={fields?.logo} />
+                <img className="w-[80px] h-[80px]" {...fields?.logo?.value} />
               </Link>
             </div>
 
