@@ -1,6 +1,5 @@
 import { Fragment, useState } from 'react';
 import { Dialog, DialogPanel, PopoverGroup, Transition, TransitionChild } from '@headlessui/react';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { NextImage } from '@sitecore-jss/sitecore-jss-nextjs';
 import { Link as NextLink } from '@sitecore-jss/sitecore-jss-nextjs';
@@ -46,7 +45,7 @@ export default function Header({ fields }) {
                   >
                     <span className="absolute -inset-0.5" />
                     <span className="sr-only">Close menu</span>
-                    <XMarkIcon alt="Close icon" className="h-6 w-6" aria-hidden="true" />
+                    <span>Close</span>
                   </button>
                 </div>
 
@@ -80,7 +79,7 @@ export default function Header({ fields }) {
             >
               <span className="absolute -inset-0.5" />
               <span className="sr-only">Open menu</span>
-              <Bars3Icon alt="Open menu icon" className="h-6 w-6" aria-hidden="true" />
+              <span>Open</span>
             </button>
 
             {/* Logo */}

@@ -31,12 +31,12 @@ const TopCity = ({ fields }) => {
             />
             <div className="flex items-end p-6 sm:absolute bottom-0 left-0 sm:inset-0">
               <div>
-                <h3 className="font-semibold text-4xl lg:text-6xl text-black sm:text-white">
+                <p className="font-semibold text-4xl lg:text-6xl text-black sm:text-white">
                   <Link href="#">
                     <span className="absolute inset-0" />
                     Mumbai
                   </Link>
-                </h3>
+                </p>
               </div>
             </div>
           </div>
@@ -51,12 +51,12 @@ const TopCity = ({ fields }) => {
             />
             <div className="flex items-end p-6 sm:absolute bottom-0 left-0 sm:inset-0">
               <div>
-                <h3 className="font-semibold text-4xl text-black sm:text-white">
+                <p className="font-semibold text-4xl text-black sm:text-white">
                   <Link href="#">
                     <span className="absolute inset-0" />
                     Delhi
                   </Link>
-                </h3>
+                </p>
               </div>
             </div>
           </div>
@@ -72,12 +72,12 @@ const TopCity = ({ fields }) => {
             />
             <div className="flex items-end p-6 sm:absolute sm:inset-0">
               <div>
-                <h3 className="font-semibold text-4xl text-black sm:text-white">
+                <p className="font-semibold text-4xl text-black sm:text-white">
                   <Link href="#">
                     <span className="absolute inset-0" />
                     Bengaluru
                   </Link>
-                </h3>
+                </p>
               </div>
             </div>
           </div>
